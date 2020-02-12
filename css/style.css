@@ -1,0 +1,515 @@
+body{
+  font-family: Arial, helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/*Global */
+.container{
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Header */
+
+header{
+  background: #ffffff;
+  color: #000000;
+  padding-top: 10px;
+  min-height: 50px;
+  border-bottom: #0a7a95 6px solid;
+}
+
+header #img{
+	margin-left: 34px;
+}
+
+header a{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 5px 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  font-size: 40px;
+  font-family: Impact;
+  font-style: italic;
+  margin: 5px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+header #branding h4{
+  font-size: 11px;
+  margin: 0px 0px 0px 30px;
+  padding: 0px 0px 20px 0px;
+}
+
+header #branding p{
+  font-size: 8px;
+  color: #808080;
+  margin-left: 804px;
+  margin-top: -70px;
+  margin-bottom: -5px;
+}
+
+/*Assigning Nav Margin location*/
+header nav{
+  float: right;
+  margin-bottom: 35px;
+  font-family: sans-serif;
+}
+
+/*Highlighting the Ultrasmart list item */
+header nav #ul1{
+  background-color: #7CFC00;
+  color: #ffffff;
+}
+
+/*Formatting button with color and margin  */
+header button{
+  height: 30px;
+  width: 150px;
+  background-color: #367CA7;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  float: right;
+  text-align: center;
+}
+
+/*Provide hover effect to list item */
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/*Showcase */
+#showcase{
+  min-height: 600px;
+  background:url('../img/SECURITY.jpg') no-repeat;
+  text-align: left;
+  color: #ffffff;
+}
+
+#showcase h1{
+  margin-top: 176px;
+  font-size: 50.5px;
+  margin-left: 72px;
+  color: #3BB9FF;
+}
+
+#showcase p{
+  margin-top: -30px;
+  font-size: 32px;
+  margin-left: 80px;
+}
+
+
+/*Formatting article */
+#main h1{
+  margin-top: 20px;
+  color: #f1af93;
+  margin-left: 5%;
+  margin-right: 62%;
+  width: 30%;
+  font-size: 50px;
+}
+
+#main #p1{
+  float: right;
+  width: 56%;
+  margin-top: -210px;
+  font-size: 18px;
+  margin-right: 5%;
+  font-family: sans-serif;
+}
+
+#main #p2{
+  float: right;
+  width: 56%;
+  margin-top: -90px;
+  font-size: 18px;
+  margin-right: 5%;
+  font-family: sans-serif;
+}
+
+#main #a{
+  color: #000000;
+  font-size: 15px;
+  margin-left: 800px;
+  text-decoration: none;
+}
+
+#main #a:hover{
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/*Showcase1 */
+#showcase1{
+  margin-top: 50px;
+  background:url('../img/Ultrasmart.jpg') no-repeat;
+  min-height: 530px;
+}
+
+#showcase1 h6{
+  margin-top: 200px;
+  margin-left: 35%;
+  font-size: 12px;
+}
+
+#showcase1 h1{
+  margin-top: -20px;
+  margin-left: 35%;
+  font-size: 46.5px;
+  color: #67C285;
+  font-family: sans-serif;
+}
+
+#showcase1 p{
+  margin-top: -30px;
+  margin-left: 35%;
+  width: 30%;
+  font-size: 31px;
+  font-family: Century Gothic;
+}
+
+/*Formatting h1 and p */
+#info1 h1{
+  margin-top: 70px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#info1 p{
+  margin-left: 22%;
+  text-align: center;
+  width: 59%;
+  font-size: 20px;
+}
+
+/*showcase2 */
+#showcase2{
+  margin-top: 30px;
+  background:url('../img/Security1.jpg') no-repeat;
+  min-height: 200px;
+  margin-left: 100px;
+  transition: transform .2s;
+  min-width: 200px;
+}
+
+#showcase2 h3{
+  font-size: 25px;
+  margin-top: 20px;
+  color: #ffffff;
+  margin-left: 70px;
+}
+
+#showcase2 p{
+  font-size: 12px;
+  width: 16%;
+  color: #ffffff;
+}
+
+#showcase2:hover{
+   transform: scale(1.1);
+}
+
+/*showcase3 */
+#showcase3{
+  margin-top: -200px;
+  background:url('../img/Innovation.jpg') no-repeat;
+  min-height: 200px;
+  margin-left: 400px;
+  transition: transform .2s;
+}
+
+#showcase3 h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+#showcase3:hover{
+   transform: scale(1.1);
+}
+
+/*showcase4 */
+#showcase4{
+  margin-top: -200px;
+  background:url('../img/Communication.jpg') no-repeat;
+  min-height: 200px;
+  margin-left: 700px;
+  transition: transform .2s;
+}
+
+#showcase4 h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 3px;
+  color: #ffffff;
+}
+
+#showcase4:hover{
+   transform: scale(1.1);
+}
+
+/*showcase5 */
+#showcase5{
+  margin-top: -200px;
+  background:url('../img/ICT Solutions.jpg') no-repeat;
+  min-height: 200px;
+  margin-left: 1000px;
+  transition: transform .2s;
+}
+
+#showcase5 h3{
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 25px;
+  color: #ffffff;
+}
+
+#showcase5:hover{
+   transform: scale(1.1);
+}
+
+/*Navigating Learn more */
+#learn{
+  text-align: center;
+  margin-top: 30px;
+}
+
+#learn a{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#learn li{
+  display: inline;
+  padding: 0px 20px 0 20px;
+}
+
+#learn a:hover{
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/*Footer */
+footer{
+  padding: 20px;
+  margin-top: 50px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+footer #img2{
+  margin-left: 40px;
+}
+
+footer #closure h1{
+  font-size: 35px;
+  font-family: Impact;
+  font-style: italic;
+  margin: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+}
+
+footer #closure h4{
+  font-size: 10px;
+  margin: 0px 0px 0px 125px;
+  padding: 0px 0px 20px 0px;
+}
+
+footer #closure h6{
+  font-size: 11px;
+  width: 15%;
+  margin-left: 350px;
+  margin-top: -60px;
+}
+
+footer #btn1{
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  background: #000000;
+  width: 170px;
+  height: 15px;
+  float: right;
+  margin-top: -60px;
+  margin-right: 15%;
+  text-align: center;
+  padding: 10px;
+}
+
+footer #img3{
+  width: 3%;
+  float: right;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+  margin-top: -60px;
+  margin-right: 10%;
+}
+
+footer #img4{
+  width: 3%;
+  float: right;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+  margin-top: -60px;
+  margin-right: 5%;
+}
+
+footer #line{
+  margin-top: 60px;
+}
+
+footer #p1{
+margin-left: 60px;
+font-size: 12px;
+color: #808080;
+}
+
+footer #p2{
+  float: right;
+  margin-right: 60px;
+  font-size: 12px;
+  color: #808080;
+  margin-top: -25px;
+}
+
+footer .highlight{
+  color: #67C285;
+}
+
+/*Responsive page for devices resolution */
+@media(max-width: 768px){
+  header
+  #branding h1,
+  #branding h4
+  {
+    float: center;
+  }
+  
+  header #branding p{
+    margin-left: 205px;
+    margin-top: 7px;
+  }
+
+  header nav li{
+    margin-left: -10px;
+  }
+
+  header button{
+    margin-top: 20px;
+    margin-right: 130px;
+    margin-bottom: -20px;
+  }
+
+  #showcase h1,p{
+    margin-top: 100px;
+  }
+
+  #main h1
+  {
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+	margin-left:10%;
+  }
+
+  #main #p1,
+  #main #p2
+  {
+    margin-top: 0px;
+    margin-right: 20%;
+  }
+  
+  #main #a{
+	  margin-left:40%;
+  }
+
+  #showcase1,
+  {
+    float: none;
+  }
+
+  #showcase1 h6,
+  #showcase1 h1,
+  #showcase1 p{
+    visibility: hidden;
+  }
+
+  #showcase2 p{
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  #showcase3{
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+  #showcase4{
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+  #showcase5{
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+    footer #closure h6{
+    width: 30%;
+    margin-left: 280px;
+  }
+
+  footer #btn1{
+    margin-top: 0px;
+    margin-right: 150px;
+
+  }
+
+  footer #img3{
+    margin-top: -45px;
+    margin-right: 100px;
+    width: 6%;
+  }
+
+  footer #img4{
+    margin-top: -45px;
+    margin-right: 50px;
+    width: 6%;
+  }
+
+  footer #p1{
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+
+  footer #p2{
+    margin-top: 0px;
+    margin-right: 100px;
+  }
+}
